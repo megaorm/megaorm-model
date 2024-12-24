@@ -1042,8 +1042,6 @@ These events define the lifecycle of various operations. Each operation emits sp
 
 ### Linking Events
 
-Linking connects models in a link table. learn more [here...]().
-
 9. `LINK`
 
 - Emitted before linking one model to another.
@@ -1074,8 +1072,6 @@ Linking connects models in a link table. learn more [here...]().
     - Triggered by the `linkMany()` method.
 
 ### Unlinking Events
-
-Unlinking removes connection between models from the link table. learn more [here...]().
 
 13. `UNLINK`
 
