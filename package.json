@@ -1,0 +1,38 @@
+{
+  "name": "@megaorm/model",
+  "version": "1.0.1",
+  "description": "This package is designed to simplify database interactions in MegaORM.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-model.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc"
+  },
+  "keywords": [
+    "megaorm-model",
+    "megaorm",
+    "model",
+    "orm",
+    "database",
+    "sql"
+  ],
+  "dependencies": {
+    "@megaorm/builder": "^1.0.0",
+    "@megaorm/pool": "^1.0.1",
+    "@megaorm/test": "^1.2.0",
+    "@megaorm/utc": "^1.1.0",
+    "@megaorm/utils": "^1.0.0"
+  }
+}
